@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-//#define CUSTOM_MACHINE_NAME "Sunlu S8"
+#define CUSTOM_MACHINE_NAME "Sunlu S8"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -2023,10 +2023,8 @@
 #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 #define ST7920_DELAY_1 DELAY_NS (0)
-
-#define ST7920_DELAY_2 DELAY_NS (200)
-
-#define ST7920_DELAY_3 DELAY_NS (200)
+#define ST7920_DELAY_2 DELAY_NS (125)
+#define ST7920_DELAY_3 DELAY_NS (125)
 //
 // ReprapWorld Graphical LCD
 // https://reprapworld.com/?products_details&products_id/1218
